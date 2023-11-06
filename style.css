@@ -1,0 +1,104 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+	background-image:url('https://www.itb.ac.id/files/dokumentasi/1662363339-space-nebula-3d-illustration-use-with-projects-science-research-education.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	color: F4EEEE;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: bakso sapi;
+    color: 4B527E;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+	z-index:1;
+	border:1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section  {
+    margin: auto;
+    display: flex;
+	margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.index {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	margin-left: 40px;
+}
+
+.kolom {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+section contact.html  {
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section Planet.html  {
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
